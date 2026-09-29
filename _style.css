@@ -61,3 +61,7 @@ footer {
   font-size: .86rem; color: var(--ink3);
 }
 footer a { margin-right: 1rem; }
+
+nav.langs { margin-top: .9rem; font-size: .85rem; }
+nav.langs a { margin-right: .9rem; }
+nav.langs span { margin-right: .9rem; color: var(--ink3, #888); }
