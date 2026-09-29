@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — ScrapNote</title>
+<meta name="description" content="ScrapNote has no server and collects no personal data.">
+<link rel="stylesheet" href="_style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="brand">
+  <a href="./"><span class="ko">ScrapNote</span></a>
+</header>
+
+<h1>Privacy Policy</h1>
+<p class="meta">Effective 11 September 2026 · Last updated 29 September 2026</p>
+
+<p class="lede">ScrapNote collects no personal data. There is no server, there is no sign-up, and the developer cannot see what you save.</p>
+
+<h2>1. What we collect</h2>
+<p><strong>Nothing.</strong> The app does not receive, store or transmit any of the following.</p>
+<ul>
+  <li>Name · email address · phone number · date of birth · gender</li>
+  <li>Address · location (the app never asks for location access)</li>
+  <li>Contacts · photo library (the app never asks for photo access)</li>
+  <li>Device identifiers · advertising identifier (IDFA) · cookies</li>
+  <li>Payment details such as card numbers</li>
+  <li>Usage history · access logs · analytics</li>
+</ul>
+<p>There is no account and no server operated by the developer. The app contains <strong>no analytics tool</strong> (no Google Analytics, no Firebase), no advertising SDK and no crash reporter.</p>
+
+<h2>2. Why we would use it</h2>
+<p>Since nothing is collected, <strong>there is no purpose of use.</strong></p>
+<p>What follows is how the things you create in the app are used <strong>on your device</strong>. None of it is sent to the developer.</p>
+<div class="scroller"><table>
+<thead><tr><th>Information</th><th>Purpose</th><th>Where it is processed</th></tr></thead>
+<tbody>
+<tr><td>Note text · saved links · folders</td><td>Showing and searching your notes</td><td>On device</td></tr>
+<tr><td>The address of a link you share</td><td>Reading the title, author and thumbnail so the source stays with the note</td><td>Device → that site</td></tr>
+<tr><td>A date found inside a note</td><td>Grouping notes with a date coming up, and adding one to your calendar if you ask</td><td>On device</td></tr>
+<tr><td>Long text, when you use the AI summary</td><td>Shortening it to one line</td><td><strong>On device</strong> — see section 5</td></tr>
+</tbody>
+</table></div>
+
+<h2>3. Where your data lives</h2>
+<div class="scroller"><table>
+<thead><tr><th>What</th><th>Where</th><th>Who can see it</th></tr></thead>
+<tbody>
+<tr><td>Notes · links · folders · thumbnails</td><td>On your device, and in your own iCloud if it is on</td><td><strong>You only</strong></td></tr>
+<tr><td>Usage history</td><td>Not recorded</td><td>—</td></tr>
+<tr><td>Device and advertising identifiers</td><td>Not collected</td><td>—</td></tr>
+</tbody>
+</table></div>
+<p>iCloud sync uses <strong>Apple's CloudKit private database</strong>. That space belongs to your Apple Account and the developer has no access to it. Turn iCloud off and your data stays on the device alone.</p>
+
+<h2>4. When the app talks to the internet</h2>
+<p>The app makes <strong>only the three requests below</strong>. None of them passes through a server of ours, and none of them carries what you wrote.</p>
+
+<h3>1. It reads the page you shared</h3>
+<p>When you save a link, the app <strong>connects to that address directly</strong> and reads what the page publishes: title, author, thumbnail and text. That is what keeps the source attached to your note.</p>
+<p>How much text is read depends on the service. For a YouTube video it is the <strong>full description</strong>; for an Instagram or Threads post it is the <strong>public caption</strong>. This is what lets you find the note later by its words, and it is stored <strong>on your device only</strong>.</p>
+
+<h3>2. Some services need their official lookup address</h3>
+<p>YouTube and TikTok pages do not expose the channel or author name. For those, the app sends <strong>the address you shared</strong> to the oEmbed endpoint each company publishes, and receives the author's name (and the title, if the title came back empty).</p>
+<div class="scroller"><table>
+<thead><tr><th>Sent to</th><th>What is sent</th><th>Their policy</th></tr></thead>
+<tbody>
+<tr><td>youtube.com</td><td>The video address you shared</td><td><a href="https://policies.google.com/privacy">Google Privacy Policy</a></td></tr>
+<tr><td>tiktok.com</td><td>The post address you shared</td><td><a href="https://www.tiktok.com/legal/privacy-policy">TikTok Privacy Policy</a></td></tr>
+</tbody>
+</table></div>
+
+<h3>3. It checks whether a new version exists</h3>
+<p>On launch the app reads <strong>one small file</strong> hosted on GitHub Pages to learn the current version. It only downloads; <strong>nothing is sent</strong> — no device information, no usage, no identifier. If the file cannot be read, the app does nothing.</p>
+
+<p>For all three, please note:</p>
+<ul>
+  <li>The request goes <strong>from your device straight to that site</strong>. It does not pass through a server of ours.</li>
+  <li>That site may therefore log ordinary connection information such as your IP address, under its own policy. It is the same as opening the page in a browser.</li>
+  <li>What comes back is stored <strong>on your device only</strong>.</li>
+  <li>The notes you write <strong>never leave the device in any of these cases.</strong></li>
+</ul>
+
+<h2>5. Artificial intelligence</h2>
+<p>The feature that shortens long text to a single line uses <strong>Apple Intelligence's on-device model</strong>. The text <strong>never leaves your device</strong> and is sent neither to the developer nor to any AI company. On devices without Apple Intelligence the feature does not appear at all.</p>
+
+<h2>6. Device permissions</h2>
+<div class="scroller"><table>
+<thead><tr><th>Permission</th><th>Why</th><th>When you are asked</th></tr></thead>
+<tbody>
+<tr><td>Calendar (write only)</td><td>Adding a date found in a note to your calendar</td><td>The first time you use that feature</td></tr>
+</tbody>
+</table></div>
+<p><strong>Calendar access is write-only.</strong> The app never reads your existing events. Refuse it and everything else still works, and you can revoke it at any time in Settings.</p>
+<p><strong>ScrapNote sends no notifications at all,</strong> so it never asks for notification permission. Dates coming up are shown on screen when you open the app, and reminders for events you added are handled by the iOS Calendar.</p>
+<p><strong>Location and photo access are never requested.</strong></p>
+
+<h2>7. Payment</h2>
+<p>Subscription payment is <strong>handled by Apple's App Store.</strong> The developer never receives, sees or stores a card number or any payment detail. All Apple tells the app is whether this device has a valid subscription.</p>
+
+<h2>8. Processors</h2>
+<p><strong>The developer entrusts personal data to no one,</strong> because there is no personal data to entrust.</p>
+<p>The app does rely on Apple services, and those are handled <strong>in your relationship with Apple.</strong></p>
+<div class="scroller"><table>
+<thead><tr><th>Service</th><th>Used for</th><th>Policy</th></tr></thead>
+<tbody>
+<tr><td>iCloud (CloudKit)</td><td>Sync between your devices, inside your Apple Account</td><td><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></td></tr>
+<tr><td>App Store</td><td>Subscription payment</td><td><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></td></tr>
+</tbody>
+</table></div>
+
+<h2>9. Sharing with third parties</h2>
+<p><strong>We share nothing.</strong> There is no recipient and no data to share.</p>
+<p>Even on a request from law enforcement, <strong>there is no data to hand over.</strong> Your notes exist only on your device and in your Apple Account.</p>
+
+<h2>10. Retention and deletion</h2>
+<p>The developer holds no personal data, so <strong>there is no retention period on our side.</strong></p>
+<p>What you create stays on your device and in your iCloud <strong>until you delete it.</strong> You can do that yourself:</p>
+<ul>
+  <li><strong>One at a time</strong> — delete the note inside the app.</li>
+  <li><strong>Everything</strong> — deleting the app removes the data on the device. The iCloud copy is removed in iOS Settings → Apple Account → iCloud → Manage Storage → ScrapNote.</li>
+  <li><strong>Take it with you</strong> — Settings → Export writes your notes out as Markdown files. Reading and exporting stay open even after a subscription ends.</li>
+</ul>
+<p>There is no need to ask the developer to delete anything. The developer holds no copy.</p>
+
+<h2>11. Security</h2>
+<ul>
+  <li><strong>There is no server.</strong> There is no central store to breach.</li>
+  <li>Data is stored under iOS device encryption and Apple Account protection.</li>
+  <li>All network communication uses <strong>HTTPS</strong> only.</li>
+  <li>The app's diagnostic log <strong>never records note text or full addresses</strong> — only lengths and domains. That log stays on the device.</li>
+</ul>
+
+<h2>12. Children</h2>
+<p>ScrapNote is not directed at children under 14 and does not knowingly collect their personal data. It collects no personal data from anyone.</p>
+
+<h2>13. Your rights</h2>
+<p>You may ask to access, correct, delete or restrict the processing of your personal data at any time.</p>
+<p>In practice there is nothing for the developer to act on, because the developer holds no copy of your data — it is on your device and in your own Apple Account, where you can read, change and delete it directly (see section 10). If you need help, please use the contact in section 16.</p>
+
+<h2>14. Complaints</h2>
+<p>The developer is based in South Korea. If you wish to raise a dispute or ask for help, you may contact the following Korean authorities.</p>
+<div class="scroller"><table><thead><tr><th>Body</th><th>Phone</th><th>Website</th></tr></thead><tbody><tr><td>Personal Information Dispute Mediation Committee</td><td>+82-1833-6972</td><td><a href="https://www.kopico.go.kr">www.kopico.go.kr</a></td></tr><tr><td>Privacy Infringement Report Centre (KISA)</td><td>118 (in Korea)</td><td><a href="https://privacy.kisa.or.kr">privacy.kisa.or.kr</a></td></tr></tbody></table></div>
+<p>You may also contact the data protection authority of the country where you live.</p>
+
+<h2>15. Changes to this policy</h2>
+<p>If this policy changes, it will be posted here <strong>7 days before</strong> it takes effect. A change that materially affects your rights will be posted <strong>30 days before</strong>, and noted in the app's update description as well.</p>
+<p>If an analytics tool or a server feature is ever added, <strong>this policy will be amended first</strong>, stating what goes where.</p>
+
+<h2>16. Contact</h2>
+<div class="scroller"><table><tbody><tr><th>Name</th><td>Daehyeon Kim</td></tr><tr><th>Role</th><td>Developer (operator of ScrapNote)</td></tr><tr><th>Email</th><td><a href="mailto:kdhmonkeyd@gmail.com">kdhmonkeyd@gmail.com</a></td></tr></tbody></table></div>
+<p>Send questions, complaints or requests about privacy to the address above. You will get a reply as soon as it is read.</p>
+<footer>
+  <a href="./">About</a><a href="support.en.html">Support</a><a href="privacy.en.html">Privacy Policy</a>
+</footer>
+<nav class="langs"><a href="privacy.html" hreflang="ko">한국어</a><span>English</span><a href="privacy.ja.html" hreflang="ja">日本語</a><a href="privacy.zh-Hant.html" hreflang="zh-Hant">繁體中文</a></nav>
+
+</div>
+</body>
+</html>

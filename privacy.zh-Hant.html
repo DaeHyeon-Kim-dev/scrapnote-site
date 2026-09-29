@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隱私權政策 — ScrapNote</title>
+<meta name="description" content="ScrapNote 沒有伺服器，也不收集個人資料。">
+<link rel="stylesheet" href="_style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="brand">
+  <a href="./"><span class="ko">ScrapNote</span></a>
+</header>
+
+<h1>隱私權政策</h1>
+<p class="meta">生效日 2026年9月11日 · 最後更新 2026年9月29日</p>
+
+<p class="lede">ScrapNote 不收集個人資料。沒有伺服器、沒有註冊，開發者也看不到你收藏的內容。</p>
+
+<h2>1. 收集的個人資料</h2>
+<p><strong>沒有收集任何個人資料。</strong>以下各項一律<strong>不接收、不儲存、不傳送。</strong></p>
+<ul>
+  <li>姓名 · 電子郵件 · 電話號碼 · 出生日期 · 性別</li>
+  <li>地址 · 位置資訊（App 不會要求位置權限）</li>
+  <li>聯絡人 · 照片圖庫（App 不會要求照片權限）</li>
+  <li>裝置識別碼 · 廣告識別碼（IDFA） · Cookie</li>
+  <li>信用卡號等付款資訊</li>
+  <li>使用紀錄 · 連線紀錄 · 使用統計</li>
+</ul>
+<p>沒有註冊與登入，也沒有開發者營運的伺服器。App 裡<strong>一個都沒有放</strong>分析工具（Google Analytics、Firebase 等）、廣告 SDK 或當機回報工具。</p>
+
+<h2>2. 使用目的</h2>
+<p>既然沒有收集個人資料，<strong>也就沒有使用目的。</strong></p>
+<p>以下說明你在 App 裡產生的資料<strong>在裝置內</strong>如何被使用。下列任何一項都不會傳給開發者。</p>
+<div class="scroller"><table>
+<thead><tr><th>資料</th><th>用途</th><th>在哪裡處理</th></tr></thead>
+<tbody>
+<tr><td>筆記內容 · 收藏的連結 · 資料夾</td><td>顯示與搜尋你的筆記</td><td>裝置內</td></tr>
+<tr><td>你分享的連結網址</td><td>取得標題、作者與縮圖，讓出處留在筆記裡</td><td>裝置 → 該網站</td></tr>
+<tr><td>筆記中找到的日期</td><td>把日期快到的筆記集中顯示，需要時加入行事曆</td><td>裝置內</td></tr>
+<tr><td>較長的內文（使用 AI 摘要時）</td><td>縮成一行</td><td><strong>裝置內</strong> — 見第 5 條</td></tr>
+</tbody>
+</table></div>
+
+<h2>3. 資料存放在哪裡</h2>
+<div class="scroller"><table>
+<thead><tr><th>項目</th><th>存放位置</th><th>誰看得到</th></tr></thead>
+<tbody>
+<tr><td>筆記 · 連結 · 資料夾 · 縮圖</td><td>裝置內；若已開啟，則在你自己的 iCloud</td><td><strong>只有你</strong></td></tr>
+<tr><td>使用紀錄</td><td>不留存</td><td>—</td></tr>
+<tr><td>裝置識別碼 · 廣告 ID</td><td>不收集</td><td>—</td></tr>
+</tbody>
+</table></div>
+<p>iCloud 同步使用 <strong>Apple 的 CloudKit 私人資料庫</strong>。那是屬於你 Apple 帳戶的空間，開發者沒有存取權限。關掉 iCloud，資料就只留在裝置裡。</p>
+
+<h2>4. App 何時會連外</h2>
+<p>App 只會發出<strong>以下三種連線</strong>。三者都不經過我們的伺服器，也都不會送出你寫的內容。</p>
+
+<h3>① 讀取你分享的那個頁面</h3>
+<p>收藏連結時，App 會<strong>直接連到那個網址</strong>，讀取該頁面公開的資訊（標題、作者、縮圖、內文），出處才能留在筆記裡。</p>
+<p>取得的內文範圍因服務而異。YouTube 影片會取<strong>完整的說明欄</strong>，Instagram 與 Threads 貼文會取<strong>公開的說明文字</strong>。這是為了讓你日後能用內文搜尋，取得的內容<strong>只存在你的裝置上</strong>。</p>
+
+<h3>② 部分服務需要官方的查詢網址</h3>
+<p>YouTube 與 TikTok 的頁面本身不會顯示頻道或作者名稱。因此 App 會把<strong>你分享的網址</strong>送到各公司公開的 oEmbed 位址，取回作者名稱（若標題為空，也會一併取回標題）。</p>
+<div class="scroller"><table>
+<thead><tr><th>送往</th><th>送出的內容</th><th>該服務的政策</th></tr></thead>
+<tbody>
+<tr><td>youtube.com</td><td>你分享的影片網址</td><td><a href="https://policies.google.com/privacy">Google 隱私權政策</a></td></tr>
+<tr><td>tiktok.com</td><td>你分享的貼文網址</td><td><a href="https://www.tiktok.com/legal/privacy-policy">TikTok 隱私權政策</a></td></tr>
+</tbody>
+</table></div>
+
+<h3>③ 確認是否有新版本</h3>
+<p>開啟 App 時，會讀取放在 GitHub Pages 上的<strong>一個小檔案</strong>，以得知目前的最新版本。只下載、<strong>不送出任何東西</strong> — 沒有裝置資訊、沒有使用紀錄、沒有識別碼。若讀不到該檔案，App 什麼也不做。</p>
+
+<p>這三種情況都請留意：</p>
+<ul>
+  <li>連線是<strong>從你的裝置直接連到該網站</strong>，不經過我們的伺服器。</li>
+  <li>因此<strong>該網站</strong>可能依其自身政策記錄 IP 位址等一般連線資訊。這和你用瀏覽器開啟該頁面是一樣的。</li>
+  <li>取回的資訊<strong>只會存在你的裝置上</strong>。</li>
+  <li>你寫的筆記內容<strong>在任何情況下都不會離開裝置。</strong></li>
+</ul>
+
+<h2>5. 人工智慧（AI）功能</h2>
+<p>把長篇內文縮成一行的功能，使用 <strong>Apple Intelligence 的裝置端模型</strong>。內文<strong>不會離開你的裝置</strong>，既不會傳給開發者，也不會傳給任何 AI 業者。在不支援 Apple Intelligence 的裝置上，這個功能根本不會出現。</p>
+
+<h2>6. 裝置權限</h2>
+<div class="scroller"><table>
+<thead><tr><th>權限</th><th>為什麼需要</th><th>何時詢問</th></tr></thead>
+<tbody>
+<tr><td>行事曆（僅寫入）</td><td>把筆記裡找到的日期加進行事曆</td><td>第一次使用該功能時</td></tr>
+</tbody>
+</table></div>
+<p><strong>行事曆是唯寫的。</strong>App 不會讀取你既有的行程。拒絕之後其他功能照常使用，也可以隨時在「設定」裡收回。</p>
+<p><strong>ScrapNote 不會發送任何通知，</strong>所以不會要求通知權限。日期快到的項目會在你開啟 App 時顯示在畫面上；已加入行事曆的行程提醒則由 iOS 行事曆處理。</p>
+<p><strong>不會要求位置與照片權限。</strong></p>
+
+<h2>7. 付款</h2>
+<p>訂閱付款由 <strong>Apple 的 App Store 處理。</strong>開發者不會收到、看到或儲存卡號與任何付款資訊。Apple 只會告訴 App 這台裝置是否有有效的訂閱。</p>
+
+<h2>8. 委外處理</h2>
+<p><strong>開發者沒有委外處理個人資料的對象，</strong>因為根本沒有可委外的個人資料。</p>
+<p>但 App 為了功能會用到 Apple 的服務，這些屬於<strong>你與 Apple 之間的關係</strong>。</p>
+<div class="scroller"><table>
+<thead><tr><th>服務</th><th>用於</th><th>政策</th></tr></thead>
+<tbody>
+<tr><td>iCloud (CloudKit)</td><td>裝置間同步，位於你的 Apple 帳戶空間</td><td><a href="https://www.apple.com/tw/legal/privacy/">Apple 隱私權政策</a></td></tr>
+<tr><td>App Store</td><td>訂閱付款</td><td><a href="https://www.apple.com/tw/legal/privacy/">Apple 隱私權政策</a></td></tr>
+</tbody>
+</table></div>
+
+<h2>9. 提供給第三方</h2>
+<p><strong>不會提供給第三方。</strong>既沒有提供對象，也沒有可提供的個人資料。</p>
+<p>即使執法機關提出要求，<strong>我們也沒有可交付的資料。</strong>你的筆記只存在於你的裝置與你的 Apple 帳戶。</p>
+
+<h2>10. 保存期間與刪除</h2>
+<p>開發者沒有保存任何個人資料，因此<strong>開發者端沒有保存期間。</strong></p>
+<p>你建立的資料會留在裝置與 iCloud，<strong>直到你自己刪除為止。</strong>刪除方式如下。</p>
+<ul>
+  <li><strong>逐筆刪除</strong> — 在 App 裡刪除該筆筆記。</li>
+  <li><strong>全部刪除</strong> — 刪除 App 會清掉裝置內的資料。iCloud 上的副本請到 iOS 設定 → Apple 帳戶 → iCloud → 管理儲存空間 → ScrapNote 刪除。</li>
+  <li><strong>帶走</strong> — 設定 → 匯出，可以把筆記匯出成 Markdown 檔。訂閱結束之後，閱讀與匯出仍然開放。</li>
+</ul>
+<p>不需要請開發者刪除，因為開發者手上沒有副本。</p>
+
+<h2>11. 安全措施</h2>
+<ul>
+  <li><strong>沒有伺服器。</strong>連可能外洩的集中儲存庫本身都不存在。</li>
+  <li>資料存放在 iOS 的裝置加密與 Apple 帳戶保護之下。</li>
+  <li>所有連線一律使用 <strong>HTTPS</strong>。</li>
+  <li>App 留下的診斷紀錄<strong>不會記下筆記內容或完整網址</strong> — 只記長度與網域。該紀錄只留在裝置內。</li>
+</ul>
+
+<h2>12. 兒童的個人資料</h2>
+<p>ScrapNote 不以未滿 14 歲的兒童為對象，也不會在知情的情況下收集兒童的個人資料。事實上，我們不收集任何人的個人資料。</p>
+
+<h2>13. 你的權利</h2>
+<p>你可以隨時要求查閱、更正、刪除你的個人資料，或要求停止處理。</p>
+<p>實務上開發者沒有可處理的對象，因為開發者手上沒有副本 — 資料在你的裝置與你自己的 Apple 帳戶裡，你可以直接查看、修改與刪除（見第 10 條）。需要協助請見第 16 條的聯絡方式。</p>
+
+<h2>14. 申訴管道</h2>
+<p>開發者位於韓國。若你想提出爭議或尋求協助，可以聯絡下列韓國機關。</p>
+<div class="scroller"><table><thead><tr><th>機關</th><th>電話</th><th>網站</th></tr></thead><tbody><tr><td>個人資料爭議調解委員會</td><td>+82-1833-6972</td><td><a href="https://www.kopico.go.kr">www.kopico.go.kr</a></td></tr><tr><td>個人資料侵害申訴中心（KISA）</td><td>118（韓國境內）</td><td><a href="https://privacy.kisa.or.kr">privacy.kisa.or.kr</a></td></tr></tbody></table></div>
+<p>你也可以聯絡所在國家/地區的個人資料保護主管機關。</p>
+
+<h2>15. 本政策的修改</h2>
+<p>本政策如有修改，會在<strong>生效前 7 天</strong>公告於本頁。對你的權利有重大影響的變更，會在<strong>生效前 30 天</strong>公告，並一併寫進 App 的更新說明。</p>
+<p>日後若要加入分析工具或伺服器功能，會<strong>先修改本政策</strong>，在這裡寫明什麼資料送往何處。</p>
+
+<h2>16. 聯絡方式</h2>
+<div class="scroller"><table><tbody><tr><th>姓名</th><td>金大鉉（Daehyeon Kim）</td></tr><tr><th>身分</th><td>開發者（ScrapNote 營運者）</td></tr><tr><th>電子郵件</th><td><a href="mailto:kdhmonkeyd@gmail.com">kdhmonkeyd@gmail.com</a></td></tr></tbody></table></div>
+<p>與個人資料有關的詢問、申訴與救濟請寄到上面的信箱。看到之後會盡快回覆。</p>
+<footer>
+  <a href="./">關於</a><a href="support.zh-Hant.html">支援</a><a href="privacy.zh-Hant.html">隱私權政策</a>
+</footer>
+<nav class="langs"><a href="privacy.html" hreflang="ko">한국어</a><a href="privacy.en.html" hreflang="en">English</a><a href="privacy.ja.html" hreflang="ja">日本語</a><span>繁體中文</span></nav>
+
+</div>
+</body>
+</html>
